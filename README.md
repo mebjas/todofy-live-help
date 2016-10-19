@@ -3,7 +3,10 @@
 
 **POC**: User installs an extension in VS Code & get live help from some other team mate over slack.
 
+I had to take two screencaptures, though I think this still gives an Idea.
 
+<img src="./Screenshots/VSCode.gif " alt="Drawing" style="width: 600px;"/>
+<img src="./Screenshots/slack.gif " alt="Drawing" style="width: 600px;"/>
 How to try
 ================================================
 
@@ -20,7 +23,16 @@ For easy usage add a key binding in `File > Preferences > Keyboard Shortcuts`
 
 This will make sure extension is triggered when you press `ctrl + shift + t`
 
-#### Configuration
+#### Configuration - File > Preferences > User setting in VSCode
+```
+"Todofylive.SlackBot": {
+    "APIToken": "<SlackAPIToken>",
+    "EndPoint": "http://127.0.0.1:8080/todofylivepoc",
+    "EndPointPoll": "http://127.0.0.1:8080/todofylivepocpoll",
+    "Channel": "<SlackChannel>",
+    "Team": "<slack Team Name>"
+}
+```
 
 Slack Bot
 =============================
@@ -34,3 +46,9 @@ Remeber this as `SlackAPIToken`.
 6. Channels: that's what we need to set. Click on `Save Integration`
 7. Go to homepage (channel) > `todofylivehelp` or whatever is the `SlackChannel` & `Invite Others to this channel` & select `todofybot`
 
+
+how to run this bot code
+========================
+1. Go to SlackBot
+2. `npm install`
+3. `node index.js`
