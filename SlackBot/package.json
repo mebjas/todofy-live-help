@@ -1,0 +1,19 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "bot to help with slack integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "minhaz",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "node-uuid": "^1.4.7",
+    "request": "^2.75.0",
+    "slackbots": "^0.5.3",
+    "sprintf": "^0.1.5"
+  }
+}
