@@ -5,8 +5,8 @@
 
 I had to take two screencaptures, though I think this still gives an Idea.
 
-<img src="./Screenshots/VSCode.gif " alt="Drawing" style="width: 600px;"/>
-<img src="./Screenshots/slack.gif " alt="Drawing" style="width: 600px;"/>
+<img src="./Screenshots/VSCode.gif" alt="Drawing" style="width: 600px;"/>
+<img src="./Screenshots/Slack.gif" alt="Drawing" style="width: 600px;"/>
 How to try
 ================================================
 
