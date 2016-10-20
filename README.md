@@ -3,10 +3,7 @@
 
 **POC**: User installs an extension in VS Code & get live help from some other team mate over slack.
 
-I had to take two screencaptures, though I think this still gives an Idea.
-
-<img src="./Screenshots/VSCode.gif" alt="Drawing" style="width: 600px;"/>
-<img src="./Screenshots/Slack.gif" alt="Drawing" style="width: 600px;"/>
+![screenshot](./Screenshots/screenshot.gif)
 How to try
 ================================================
 
